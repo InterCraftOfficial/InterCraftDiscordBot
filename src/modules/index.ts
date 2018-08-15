@@ -1,0 +1,1 @@
+export { TestMod } from "./testmod";

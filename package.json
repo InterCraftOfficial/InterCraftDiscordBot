@@ -1,0 +1,41 @@
+{
+  "name": "intercraft-discord-bot",
+  "version": "2.0.0",
+  "description": "The official Discord bot for InterCraft",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "discord-commander": "github:DLii-Technologies/discord-commander#master",
+    "discord.js": "^11.4.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/dotenv": "^4.0.3",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.5.7",
+    "chai": "^4.1.2",
+    "dotenv": "^6.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "start": "npm run build:live",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InterCraftOfficial/InterCraftDiscordBot.git"
+  },
+  "author": "David Ludwig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InterCraftOfficial/InterCraftDiscordBot/issues"
+  },
+  "homepage": "https://github.com/InterCraftOfficial/InterCraftDiscordBot#readme"
+}
