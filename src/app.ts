@@ -1,6 +1,6 @@
 import { Bot, Registrar } from "discord-commander";
-import * as modules from "./modules";
-import Module  from "./modules/module";
+import Module             from "./modules/module";
+import * as modules       from "./modules";
 
 class App
 {

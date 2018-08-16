@@ -1,2 +1,2 @@
 export { ServerStatus } from "./server_status";
-export { TestMod }      from "./testmod";
+export { TestMod } from "./testmod";
