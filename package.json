@@ -1,6 +1,6 @@
 {
   "name": "intercraft-discord-bot",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The official Discord bot for InterCraft",
   "main": "lib/index.js",
   "directories": {
